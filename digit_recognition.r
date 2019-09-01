@@ -1,3 +1,8 @@
+# Handwritten digit recognition based on MNIST dataset hosted in Kaggle.
+# Leverage different supervised machine learning algorithms to predict the class to which a digit belongs to
+# Uses caret library for implementation in R
+
+
 train <- read.csv("train.csv", header=TRUE)
 train<-as.matrix(train)
 test <- read.csv("test.csv", header=TRUE)
