@@ -1,7 +1,7 @@
 # MNIST dataset handwritten digit recognition
 MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
-In this competition, your goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. We’ve curated a set of tutorial-style kernels which cover everything from regression to neural networks. We encourage you to experiment with different algorithms to learn first-hand what works well and how techniques compare.
+The goal of the competition is to classify the handwritten digits into 1 of 10 labels namely 0-9. We have a dataset of 42,000 handwritten digits each of which is represented as a 28x28 pixel.
 
 # Performance of different ML algorithms on test dataset
 Decision Tree (CART) 0.618
